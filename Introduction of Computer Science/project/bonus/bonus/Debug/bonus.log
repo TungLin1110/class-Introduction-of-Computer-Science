@@ -1,0 +1,23 @@
+﻿已經開始建置於 2015/1/15 上午 11:57:43。
+     1>節點 2 (build 目標) 上的專案 "C:\Users\user\Desktop\學校\計概\專案\bonus\bonus\bonus.vcxproj"。
+     1>InitializeBuildStatus:
+         正在變更時間戳記 "Debug\bonus.unsuccessfulbuild"。
+       ClCompile:
+         d:\express\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt bonus.cpp
+         bonus.cpp
+     1>c:\users\user\desktop\學校\計概\專案\bonus\bonus\bonus.cpp(15): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\express\vc\include\stdio.h(304) : 請參閱 'scanf' 的宣告
+     1>c:\users\user\desktop\學校\計概\專案\bonus\bonus\bonus.cpp(18): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\express\vc\include\stdio.h(304) : 請參閱 'scanf' 的宣告
+     1>c:\users\user\desktop\學校\計概\專案\bonus\bonus\bonus.cpp(20): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\express\vc\include\stdio.h(304) : 請參閱 'scanf' 的宣告
+     1>c:\users\user\desktop\學校\計概\專案\bonus\bonus\bonus.cpp(31): error C2668: 'pow' : 模稜兩可的呼叫多載函式
+                 d:\express\vc\include\math.h(583): 可能是 'long double pow(long double,int)'
+                 d:\express\vc\include\math.h(535): 或       'float pow(float,int)'
+                 d:\express\vc\include\math.h(497): 或       'double pow(double,int)'
+                 當嘗試符合引數清單 '(int, int)' 時
+     1>專案 "C:\Users\user\Desktop\學校\計概\專案\bonus\bonus\bonus.vcxproj" (build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:00.39
